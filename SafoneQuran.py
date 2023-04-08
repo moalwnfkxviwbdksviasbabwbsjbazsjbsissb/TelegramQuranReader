@@ -99,7 +99,7 @@ def message_handler(message):
         except Exception as err:
             BOT.reply_to(message, err)
     elif text in ['/repo']:
-        BOT.reply_to(message, "If you want to make your own bot, bro? repo\nhttps://github.com/Achu2234/TelegramQuranReader")
+        BOT.reply_to(message, "TELE/@Q_B_h")
 
 @BOT.callback_query_handler(func=lambda call:True)
 def query_handler(call):
@@ -114,7 +114,7 @@ def query_handler(call):
 
 
 while True:
-    print("The boat is ready Join @AsmSafone")
+    print("The boat is ready Join @Q_B_H")
     try:
         BOT.polling(none_stop=True, interval=0, timeout=0)
     except Exception as err:
